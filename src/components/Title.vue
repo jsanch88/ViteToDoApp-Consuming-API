@@ -14,7 +14,7 @@ const add = () => {
 </script>
 
 <template>
-  <h1 class="pb-4 text-6xl font-thin tracking-tight text-center text-gray-300">
+  <h1 class="pb-4 text-6xl font-semibold tracking-tight text-center text-purple-700 hover:text-white">
     🚀 My Todo App
   </h1>
   <input
@@ -22,6 +22,6 @@ const add = () => {
     v-model="newTodo"
     type="text"
     class="px-4 py-2 text-xl text-center rounded-lg"
-    placeholder="New Todo"
+    placeholder="New Item..."
   />
 </template>
